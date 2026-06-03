@@ -1,0 +1,105 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Kalou Cabrera Castillos": {
+      "orcid": "0009-0007-3501-5885"
+    },
+    "Simon Ladouce": {
+      "orcid": "0000-0001-6760-6240"
+    },
+    "Ludovic Darmet": {
+      "orcid": "0000-0001-5445-9763"
+    },
+    "Frédéric Dehais": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.neuroimage.2023.120446",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000342",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000342",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.8255618",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "title": "CastillosCVEP40",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "149.9 MB (13 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A code-modulated Visual Evoked Potential (c-VEP) derivative dataset from 12 healthy participants, specifically focusing on the 40% amplitude depth modulation m-sequence c-VEP condition. This dataset is derived from a study comparing burst and m-sequence stimulus patterns at two amplitude levels (100% and 40% depth modulation) for reactive brain-computer interface applications. The study evaluated classification performance using convolutional neural networks, demonstrating that the reduced amplitude condition (40%) maintained 94.2% accuracy while improving visual comfort compared to the full amplitude burst c-VEP condition which achieved 95.6% accuracy.",
+  "methods_description": "EEG data acquired from 12 healthy participants using a BrainProducts LiveAmp system (32 channels, 500 Hz sampling rate, FCz reference). Factorial experimental design with four conditions: burst vs m-sequence patterns × 100% vs 40% amplitude depth modulation. Each trial consisted of a 0.5s visual cue (red-bordered square) followed by 2.2s stimulation phase and 0.7s inter-trial interval. Stimuli presented on a 60 Hz Dell monitor with four target locations (150 pixels each). Preprocessing included average re-referencing, IIR notch filtering (49.9-50.1 Hz, order 16), and baseline removal. Classification performed using convolutional neural networks with sliding window feature extraction for bitwise decoding.",
+  "keywords": [
+    {
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "visual evoked potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014793"
+    },
+    {
+      "term": "code-VEP"
+    },
+    {
+      "term": "burst-VEP"
+    },
+    {
+      "term": "Neural Networks, Computer",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016571"
+    },
+    {
+      "term": "visual stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010775"
+    },
+    {
+      "term": "reactive BCI"
+    },
+    {
+      "term": "convolutional neural networks"
+    },
+    {
+      "term": "amplitude depth modulation"
+    },
+    {
+      "term": "visual comfort"
+    }
+  ],
+  "source_hash": "49b7521a55e893b300a3ad79e90dbf12ed844ad707070edad5002a232588c02b"
+}
