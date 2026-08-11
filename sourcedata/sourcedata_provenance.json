@@ -1,0 +1,134 @@
+{
+ "dataset": "nm000342",
+ "moabb_class": "CastillosCVEP40",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.CastillosCVEP40.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-4class-vep-data/zenodo/8255618/4Class-CVEP",
+ "license": "CC-BY-4.0",
+ "doi": "https://doi.org/10.1016/j.neuroimage.2023.120446",
+ "n_files": 24,
+ "total_bytes": 204464776,
+ "files": [
+  {
+   "file": "P1/P1_mseq40.fdt",
+   "bytes": 16385152,
+   "sha256": "5df8f4ee6bb329a3f7e7d6dd074537e8d7b5e9a8ce393e33f9afb730efa85aae"
+  },
+  {
+   "file": "P1/P1_mseq40.set",
+   "bytes": 1106584,
+   "sha256": "7fd4576fb2a16f9e8b0afb17a358edc1a60cc081cfc8da1bfbfd224cacfaa5a7"
+  },
+  {
+   "file": "P10/P10_mseq40.fdt",
+   "bytes": 16704896,
+   "sha256": "838c29b7ae04703fa92012448087a94d4fe85cb2165f1174bac106c0831c462e"
+  },
+  {
+   "file": "P10/P10_mseq40.set",
+   "bytes": 611072,
+   "sha256": "91fc16508d875e170be217db99356b572a0343387d43f0ef410954b32d03b242"
+  },
+  {
+   "file": "P11/P11_mseq40.fdt",
+   "bytes": 18016896,
+   "sha256": "9313dedbec31fe3c76dde76c7dad366f660ab13d4a12cbd1f3eee40d6ebba05b"
+  },
+  {
+   "file": "P11/P11_mseq40.set",
+   "bytes": 646848,
+   "sha256": "769847dede62c51754ab9373e44424d6d9abb2c755579346b9e035eac5c04c54"
+  },
+  {
+   "file": "P12/P12_mseq40.fdt",
+   "bytes": 17280896,
+   "sha256": "33ddf5dd01b2aa0fd6a69ba7b490f5142f7d8f03968974a4ce7b38f7b73dfbad"
+  },
+  {
+   "file": "P12/P12_mseq40.set",
+   "bytes": 623048,
+   "sha256": "42bc6555b3e28dd96c4bbae24ce356158b1f8684b790852d27289b30ab477528"
+  },
+  {
+   "file": "P2/P2_mseq40.fdt",
+   "bytes": 15175936,
+   "sha256": "7518079b53fe4164911713412337448ebb2c07d24bbed9162cd5306f8e5ed3ca"
+  },
+  {
+   "file": "P2/P2_mseq40.set",
+   "bytes": 566672,
+   "sha256": "f09c656fad459af3a10a02aa9fdb59704ad124a01194eb8fc9b802ff37ca387e"
+  },
+  {
+   "file": "P3/P3_mseq40.fdt",
+   "bytes": 16004992,
+   "sha256": "4472475f566c3aa3318f450f02f04beda903b0a4ee04c0b46f8311ea049ec6a0"
+  },
+  {
+   "file": "P3/P3_mseq40.set",
+   "bytes": 592688,
+   "sha256": "d045832d1d320300d624e14ee11d558aafb69931da97b2c5f718642a95a2acf8"
+  },
+  {
+   "file": "P4/P4_mseq40.fdt",
+   "bytes": 16481920,
+   "sha256": "b389f6a6134200019e1e2ef640b310973e56dd5c7333fc0b49b9ec53ef5a6f0c"
+  },
+  {
+   "file": "P4/P4_mseq40.set",
+   "bytes": 1118824,
+   "sha256": "3685002aa4938879a1633dc1c86e564d559ec237626c856f8d817a9da1294ec6"
+  },
+  {
+   "file": "P5/P5_mseq40.fdt",
+   "bytes": 15810048,
+   "sha256": "5c031e6a3f307287f268473ea6318ff52fc1e251182a007d09596b9a31fac8f2"
+  },
+  {
+   "file": "P5/P5_mseq40.set",
+   "bytes": 576120,
+   "sha256": "4a57e32993080502b53203afca69aeb98eb399da1743880c2c6006b70fd64fee"
+  },
+  {
+   "file": "P6/P6_mseq40.fdt",
+   "bytes": 16481152,
+   "sha256": "5c7b2f639c8fd324a4f10bbcd1dcc435cd584d897a0f0942149a9547793812ee"
+  },
+  {
+   "file": "P6/P6_mseq40.set",
+   "bytes": 1112536,
+   "sha256": "cffd97d4a83b5b0fe1331318a2d2f468d58079aeb14396159bf6502bb9621b89"
+  },
+  {
+   "file": "P7/P7_mseq40.fdt",
+   "bytes": 16225152,
+   "sha256": "144400a58f98b35b5b72f801f8f1bba4a180324df191b0bde36f76da12c267ed"
+  },
+  {
+   "file": "P7/P7_mseq40.set",
+   "bytes": 589480,
+   "sha256": "e485377fdec938f71935fa49251760f663ccf342ba6309d34ea2650ce0c77960"
+  },
+  {
+   "file": "P8/P8_mseq40.fdt",
+   "bytes": 16002176,
+   "sha256": "e9c51b247d39597d9a3556e2679c3b2c3ac824fa21dc13d3abab42d6473c1e87"
+  },
+  {
+   "file": "P8/P8_mseq40.set",
+   "bytes": 588424,
+   "sha256": "30c44692aa90dc07ec0054d2c31960627a2005c4f0c919932796c12e60da40d2"
+  },
+  {
+   "file": "P9/P9_mseq40.fdt",
+   "bytes": 15200768,
+   "sha256": "6d460eee1d7b6ca3751051f69ffda49bb15e4f315f2ab69010007a3c15ec3876"
+  },
+  {
+   "file": "P9/P9_mseq40.set",
+   "bytes": 562496,
+   "sha256": "e3ed414e578214c809b90cac71d687c1bade40c5222f1a72659248890184b352"
+  }
+ ]
+}
