@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "CastillosCVEP40",
-  "description": "A code-modulated Visual Evoked Potential (c-VEP) electroencephalography dataset from 12 healthy participants investigating burst c-VEP as a reactive brain-computer interface paradigm. The study employed a factorial design manipulating stimulus pattern (burst versus m-sequence) and amplitude depth (100% versus 40% modulation) to optimize classification accuracy while improving user visual comfort. This dataset contains the m-sequence c-VEP subset at 40% amplitude depth modulation (60 trials per subject). Data were acquired at 500 Hz using 32-channel EEG with convolutional neural network-based classification achieving up to 95.6% accuracy in the full factorial study.",
-  "methods_description": "EEG data acquired from 12 healthy participants (mean age 30.6±7.1 years, 4 female, 8 male) using a BrainProducts LiveAmp 32-channel system at 500 Hz sampling rate with active Acticap electrodes referenced to FCz. Participants completed a reactive BCI task with four visual targets presented on a Dell monitor (60 Hz, 1920×1080 pixels, 265 cd/m²). Each trial consisted of a 0.5-second visual cue (red-bordered square) followed by 2.2 seconds of aperiodic visual stimulation at 40% amplitude depth modulation (m-sequence code type). The dataset contains 60 trials per subject (15 blocks × 4 trials per block). Preprocessing included average re-referencing, IIR notch filtering (49.9-50.1 Hz, order 16), and baseline removal. Classification employed convolutional neural networks with sliding window feature extraction and bitwise decoding.",
+  "description": "A code-modulated Visual Evoked Potential (c-VEP) electroencephalography dataset from 12 healthy participants investigating burst c-VEP as a reactive brain-computer interface paradigm. This dataset contains m-sequence c-VEP data at 40% amplitude modulation depth. The original study employed a factorial design manipulating stimulus pattern (burst vs. m-sequence) and amplitude depth (100% vs. 40% modulation) to optimize classification accuracy while improving user visual comfort. Data were acquired at 500 Hz using 32-channel EEG with convolutional neural network classification achieving up to 95.6% accuracy on the full amplitude burst condition.",
+  "methods_description": "Factorial experimental design with 12 healthy participants (mean age 30.6±7.1 years). EEG recorded using BrainProducts LiveAmp 32-channel system at 500 Hz sampling rate with active electrodes in standard 10-20 montage, referenced to FCz. Four experimental conditions: burst vs. m-sequence patterns × 100% vs. 40% amplitude depth modulation. Each condition comprised 15 blocks of 4 trials. Trial structure: 0.5s visual cue (red-bordered square), 2.2s stimulation phase with aperiodic visual flashes on Dell monitor (60 Hz, 1920×1080), 0.7s inter-trial interval. Online 50 Hz notch filter (IIR, order 16). Preprocessing: average re-reference, IIR notch filtering, epoching (0-2.2s), baseline removal. Classification via convolutional neural network with sliding window bitwise decoding.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,7 +20,7 @@
   },
   "keywords": [
     {
-      "term": "code-VEP"
+      "term": "EEG"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -28,10 +28,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "EEG"
+      "term": "visual evoked potentials"
     },
     {
-      "term": "visual evoked potentials"
+      "term": "code-VEP"
     },
     {
       "term": "convolutional neural networks"
@@ -43,10 +43,10 @@
       "term": "visual stimulation"
     },
     {
-      "term": "amplitude depth reduction"
+      "term": "visual comfort"
     },
     {
-      "term": "visual comfort"
+      "term": "amplitude modulation"
     }
   ],
   "related_identifiers": [
@@ -89,5 +89,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a052859213a0b8d75637f5cd6aad9bfd5db1feede511e4f536335a71c9375e47"
+  "source_hash": "177476b579036035aafea8287dd89f367f5acf9777feb6ff7847380dfe172630"
 }
