@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
-  "title": "CastillosCVEP40",
-  "description": "This dataset contains 32-channel EEG recordings from 12 healthy participants performing an offline 4-class reactive BCI task with code-modulated visual evoked potentials (c-VEP). It compares burst and m-sequence stimulation patterns at 100% and 40% amplitude depth, and this BIDS version contains the 40% amplitude m-sequence condition. The data support evaluation of CNN-based decoding with minimal calibration data and of user visual comfort.",
-  "methods_description": "EEG was recorded with a BrainProducts LiveAmp (32 active electrodes, 500 Hz, impedance below 25 kOhm). Participants attended to four cued disc targets flickering on a 60 Hz monitor. Each trial had a 0.5 s cue, 2.2 s of stimulation and a 0.7 s inter-trial interval, with 15 blocks of 4 trials per condition. Preprocessing comprised average re-referencing, a 49.9-50.1 Hz IIR notch filter, epoching and baseline removal. Classification used a CNN with sliding windows for bitwise decoding.",
+  "pipeline_stage": "validated",
+  "title": "Castillos et al. 2023, m-sequence c-VEP, 40% amplitude depth: Burst c-VEP Based BCI: Optimizing stimulus design for enhanced classification with minimal calibration data and improved user experience",
+  "description": "EEG recordings from 12 healthy participants performing an offline 4-class reactive BCI task based on code-modulated visual evoked potentials (c-VEP). This subset contains the m-sequence condition at 40% amplitude depth, from a factorial study comparing burst and m-sequence codes at 100% and 40% modulation depth. The data support evaluation of CNN-based classification with minimal calibration data and the visual comfort of reduced-intensity stimuli.",
+  "methods_description": "32-channel EEG was recorded with a BrainProducts LiveAmp at 500 Hz (impedance below 25 kOhm). Participants attended to four cued disc targets flickering on a 60 Hz monitor; each trial had a 0.5 s cue, 2.2 s stimulation and 0.7 s inter-trial interval, with 15 blocks of 4 trials per condition. Preprocessing included average re-referencing, a 49.9-50.1 Hz IIR notch filter, epoching and baseline removal. Classification used a CNN with sliding windows for bitwise decoding.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -23,12 +23,6 @@
       "term": "EEG"
     },
     {
-      "term": "code-VEP"
-    },
-    {
-      "term": "reactive BCI"
-    },
-    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
@@ -39,7 +33,16 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
     },
     {
+      "term": "code-modulated VEP"
+    },
+    {
+      "term": "reactive BCI"
+    },
+    {
       "term": "convolutional neural network"
+    },
+    {
+      "term": "amplitude depth reduction"
     },
     {
       "term": "visual comfort"
@@ -95,5 +98,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "177476b579036035aafea8287dd89f367f5acf9777feb6ff7847380dfe172630"
+  "source_hash": "c10dfec884e232ae849f6a1abbc260d83e97b91d57f333804178263cfd48744c"
 }
